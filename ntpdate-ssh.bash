@@ -4,7 +4,7 @@
 # Função de conexão sshpass
 function ssh_conn() {
     local user="root"
-    local password="wpsbrasil"
+    local password="password"
     local noKey="-oStrictHostKeyChecking=no"
     sshpass -p "$password" ssh "$noKey" "$user"@"$1" "$2"
 }
