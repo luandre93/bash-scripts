@@ -1,6 +1,7 @@
 #!/bin/bash
 # Criação: Luandre B. Andrade
 # 02/01/2024
+#
 
 # Função de conexão sshpass
 function ssh_conn() {
